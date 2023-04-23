@@ -1,3 +1,6 @@
+import { Observable } from 'rxjs';
+import { ThoughtService } from './../thought.service';
+import { Pensamento } from './../thought';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,20 +9,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list-thoughts.component.css'],
 })
 export class ListThoughtsComponent implements OnInit {
-  listaPensamentos = [
-    {
-      conteudo: 'Passo informações para o componente filho',
-      autoria: 'Componente pai',
-      modelo: 'modelo3',
-    },
-    {
-      conteudo: 'Minha propriedade é decorada com @Input()',
-      autoria: 'Componente filho',
-      modelo: 'modelo2',
-    },
-  ];
+  listaPensamentos: Pensamento[] = [];
 
-  constructor() {}
+  constructor(private service: ThoughtService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.service.listar().subscribe((listaPensamentos) => {
+      this.listaPensamentos = listaPensamentos;
+    });
+  }
 }
