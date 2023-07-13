@@ -1,27 +1,98 @@
-# Memoteca
+<h1 align="left">Memoteca 💭</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+###
 
-## Development server
+<p align="left">Esta é uma página web para guardar trechos de música, citaçôes de livros, pensamentos e suas melhores ideias.</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+###
 
-## Code scaffolding
+<div align="center"> 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Screenshot from 2023-07-13 13-48-30](https://github.com/brunnaserafina/memoteca/assets/106851605/c0023134-8e83-4550-b915-7203156ab230)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+</div> 
 
-## Running unit tests
+###
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<p align="center">Acesse a aplicação => https://memoteca-zeta.vercel.app/listThoughts</p>
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+###
 
-## Further help
+<br clear="both">
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### ⚙️ Funcionalidades
+
+- Descrever pensamento
+- Adicionar autoria ou fonte do pensamento
+- Escolher modelo do card
+- Salvar pensamento
+- Cancelar pensamento
+- Visualizar mural
+
+###
+
+<br />
+
+### 🛠️ Tecnologias utilizadas
+
+###
+  <img align="left" alt="angular" height="30px" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
+  <img align="left" alt="typescript" height="30px" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+
+###
+
+<br />
+<br />
+<br />
+
+### 📝 Pré-requisitos 
+
+#### Antes de começar, verifique se você tem os seguintes pré-requisitos instalados em sua máquina:
+
+- Node.js: O Node.js é um ambiente de tempo de execução JavaScript que inclui o Node Package Manager (NPM), necessário para instalar as dependências do projeto. Você pode baixar e instalar o Node.js no site oficial: https://nodejs.org
+- Angular CLI: O Angular CLI é uma interface de linha de comando que facilita a criação, o desenvolvimento e o teste de aplicativos Angular. Você pode instalar o Angular CLI globalmente usando o NPM, executando o seguinte comando no seu terminal ou prompt de comando: ```npm install -g @angular/cli```
+  
+
+
+<br />
+<br />
+
+### ▶️ Rodando a aplicação
+
+1. Clone este repositório em uma pasta de sua preferência:
+
+```bash
+ $ git clone https://github.com/brunnaserafina/memoteca.git
+```
+
+2. Navegue até o diretório do projeto
+```bash
+ $ cd memoteca
+```
+
+3. Instale as dependências
+```bash
+ $ npm install
+```
+
+4. Execute o seguinte comando para iniciar a aplicação:
+```bash
+ $ ng serve
+```
+5. Após a compilação, você receberá um URL local onde poderá visualizar a aplicação no navegador. Geralmente http://localhost:4200/
+   
+6. Acesse a URL local e se divirta!
+
+
+###
+<br />
+
+### 🙇🏻‍♀️ Autora
+
+- [@brunnaserafina](https://www.github.com/brunnaserafina)
+
+
+
+
